@@ -1,0 +1,149 @@
+{% extends "./home.html" %}
+{% load static %}
+{% block content %}
+
+    <main class="site-wrapper">
+      <div class="pt-table">
+          <div class="pt-tablecell page-home relative" style="background-image: url("{% static 'img/banner.jpg'%}");">
+              <div class="overlay"></div>
+
+              <div class="container">
+                  <div class="row">
+                      <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+                          <div class="page-title home text-center">
+                              <img src="{% static 'img/lp.png' %}" alt="">
+                              <p>This is Admin Dashboard!!</p>
+                          </div>
+
+                          <div class="hexagon-menu clear">
+                              <div class="hexagon-item">
+                                  <div class="hex-item">
+                                      <div></div>
+                                      <div></div>
+                                      <div></div>
+                                  </div>
+                                  <div class="hex-item">
+                                      <div></div>
+                                      <div></div>
+                                      <div></div>
+                                  </div>
+                                  <a href="{%url 'register' %}" class="hex-content">
+                                      <span class="hex-content-inner">
+                                          <span class="icon">
+                                              <i class="tf-dial"></i>
+                                          </span>
+                                          <span class="title">Register New Students</span>
+                                      </span>
+                                      <svg viewbox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                  </a>
+                              </div>
+                              <div class="hexagon-item">
+                                  <div class="hex-item">
+                                      <div></div>
+                                      <div></div>
+                                      <div></div>
+                                  </div>
+                                  <div class="hex-item">
+                                      <div></div>
+                                      <div></div>
+                                      <div></div>
+                                  </div>
+                                  <a href="{%url 'add-photos'%}" class="hex-content">
+                                      <span class="hex-content-inner">
+                                          <span class="icon">
+                                              <i class="tf-profile-male"></i>
+                                          </span>
+                                          <span class="title">Upload Image</span>
+                                      </span>
+                                      <svg viewbox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                  </a>
+                              </div>
+                              <div class="hexagon-item">
+                                  <div class="hex-item">
+                                      <div></div>
+                                      <div></div>
+                                      <div></div>
+                                  </div>
+                                  <div class="hex-item">
+                                      <div></div>
+                                      <div></div>
+                                      <div></div>
+                                  </div>
+                                  <a href="{%url 'train' %}" id="train" class="hex-content">
+                                      <span class="hex-content-inner">
+                                          <span class="icon">
+                                              <i class="tf-tools-2"></i>
+                                          </span>
+                                          <span class="title">Train</span>
+                                      </span>
+                                      <svg viewbox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                  </a>    
+                              </div>
+                              <div class="hexagon-item">
+                                  <div class="hex-item">
+                                      <div></div>
+                                      <div></div>
+                                      <div></div>
+                                  </div>
+                                  <div class="hex-item">
+                                      <div></div>
+                                      <div></div>
+                                      <div></div>
+                                  </div>
+                                  <a href="{%url 'view-attendance-home' %}" class="hex-content">
+                                      <span class="hex-content-inner">
+                                          <span class="icon">
+                                              <i class="tf-tools"></i>
+                                          </span>
+                                          <span class="title">View Attendance Reports!</span>
+                                      </span>
+                                      <svg viewbox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                  </a>
+                              </div>
+                              <div class="hexagon-item">
+                                  <div class="hex-item">
+                                      <div></div>
+                                      <div></div>
+                                      <div></div>
+                                  </div>
+                                  <div class="hex-item">
+                                      <div></div>
+                                      <div></div>
+                                      <div></div>
+                                  </div>
+                              </div>
+                              <div class="hexagon-item">
+                                  <div class="hex-item">
+                                      <div></div>
+                                      <div></div>
+                                      <div></div>
+                                  </div>
+                                  <div class="hex-item">
+                                      <div></div>
+                                      <div></div>
+                                      <div></div>
+                                  </div>
+                              </div>
+                              <div class="hexagon-item">
+                                  <div class="hex-item">
+                                      <div></div>
+                                      <div></div>
+                                      <div></div>
+                                  </div>
+                                  <div class="hex-item">
+                                      <div></div>
+                                      <div></div>
+                                      <div></div>
+                                  </div>
+                              </div>
+                          </div> <!-- /.hexagon-menu -->
+
+                      </div> <!-- /.col-xs-12 -->
+
+                  </div> <!-- /.row -->
+              </div> <!-- /.container -->
+
+          </div> <!-- /.pt-tablecell -->
+      </div> <!-- /.pt-table -->
+  </main>
+{% endblock %}
