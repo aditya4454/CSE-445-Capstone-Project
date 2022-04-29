@@ -1,0 +1,203 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com -->
+  <title>About</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="{%static 'css/about.css'%}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href='{%url "index"%}'>Phantom</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href='{% url "home" %}'>HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#team">OUR TEAM</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>Phantom Markups</h1> 
+  <p>Attendance marking System</p> 
+  
+</div>
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>Phantom markups</h2><br>
+      <h4>   Facial recognition is becoming more prominent in out society. It has made major progress in the field of security. It is a very effective tool that can help low enforcers to      recognize criminals and software companies are leveraging the technology to help users access the technology. This technology can be further developed to be used in other avenues such as ATMs, accessing confidential files, or other sensitive materials. This project servers as a foundation for future projects based on facial detection and recognition. This project also convers web development and database management with a user-friendly UI. Using this system any corporate offices, school and organization can replace their traditional way of maintaining attendance of the employees and can also generate their availability(presence) report throughout the process.</p>
+      <br>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-signal logo"></span>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-globe logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Our Values</h2><br>
+      <h4><strong>MISSION:</strong> This project aims to automate the traditional attendance system where the attendance is marked manually. It also enables an organization to maintain its records like in-time, out time, break time and attendance digitally. Digitalization of the system would also help in better visualization of the data using graphs to display the no. of employees present today, total work hours of each employee and their break time. Its added features serve as an efficient upgrade and replacement over the traditional attendance system..</h4><br>
+      <p><strong>VISION:</strong> This project servers as a foundation for future projects based on facial detection and recognition. This project also convers web development and database management with a user-friendly UI. Using this system any corporate offices, school and organization can replace their traditional way of maintaining attendance of the employees and can also generate their availability(presence) report throughout the month..</p>
+    </div>
+  </div>
+</div>
+
+<!-- Container (team) -->
+<div id="team" class="container-fluid">
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="{% static 'img/passport.jpg' %}" alt="Aditya" style="width:18rem;">
+      <div class="container">
+        <h2>Aditya Sengar</h2>
+        <p class="title">IGL</p>
+        <p>Frontend team</p>
+        <p>adityasengar609@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="{% static 'img/mrityu.jpg' %}" alt="Mrityunjay" style="width:18rem;">
+      <div class="container">
+        <h2>Mrityunjay Kumar Mishra</h2>
+        <p class="title">MRITYU</p>
+        <p>Backend team</p>
+        <p>mmrityunja727@gmail.com</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="{% static 'img/naveen.jpg' %}" alt="Naveen" style="width:18rem;">
+      <div class="container">
+        <h2>Naveen Kumar Yadav</h2>
+        <p class="title">Monty</p>
+        <p>Frontend team</p>
+        <p>monty.ydv20@gmail.com</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="{% static 'img/vikas.jpg' %}" alt="Vikas" style="width:18rem;">
+      <div class="container">
+        <h2>Vikas Malviya</h2>
+        <p class="title">Firepower</p>
+        <p>Backend team</p>
+        <p>vikaskmr2111@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Jaipur,Rajasthan,Delhi,Gujarat,Bangalore</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +91 7296839124</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> iphonemobile4207@gmail.com</p>
+    </div>
+    <div class="col-sm-7 slideanim" >
+      <form action="mailto:adityasengar609@gmail.com" method="post" enctype="text/plain">
+        <div class="row">
+        <div class="col-sm-6 form-group">
+        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required><br>
+      </div>
+    <div class="col-sm-6 form-group">
+        <input class="form-control" id="email" name="email" placeholder="Email" type="text" required><br>
+    </div>
+  </div>
+  <div>
+        <input class="form-control" id="comments" name="comments" placeholder="Comments" type="text" size="50"><br><br>
+      </div>
+      <div class="row">
+    <div class="col-sm-12 form-group">
+        <input class="btn btn-default pull right" type="submit" value="Send">
+        <input class="btn btn-default pull right" type="reset" value="Reset">
+      </div>
+    </div>
+      </form>
+  </div>
+  </div>
+</div>
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
