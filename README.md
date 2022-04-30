@@ -7,6 +7,18 @@
 > 4. After this process admin can take student's attendance using this system <br>
 > 5. Inside this project there is indivisual account of student where student can check their attendance report also.<br> 
 
+## Demo
+video link
+
+## Tech Stack
+
+**Client:** HTML, CSS, Javascript
+
+**Server:** Python, Django
+
+**Database:** sqllite
+
+
 ## Setup Instructions
 
 ### For Local Device
@@ -32,11 +44,18 @@ Yet to be done!!
 
 ## Modules
 
-### Module 2
-> Some Description
+### Module 1
+> Home page 
 
 ### Module 2
 > Some Description
 
 ### Module 3
 > Some Description
+> 
+## Authors
+
+- [@Aditya Senger](https://github.com/VikasMalviya2111)
+- [@Naveen Kumar Yadav](https://github.com/VikasMalviya2111)
+- [@Mrityunjay mishra](https://github.com/VikasMalviya2111)
+- [@Vikas Malviya](https://github.com/VikasMalviya2111)
