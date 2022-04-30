@@ -14,11 +14,6 @@ jobs:
 workflows:
   sample: 
     jobs:
-      - build-and-test
       - run:
           name: "Enforce Go Formatted Code"
           command: "! go fmt ./... 2>&1 | read"
-      - run:
-          name: "Set 5m Build Time Limit"
-          command: sleep 300; touch .fail-build; exit 1
-          background: true
