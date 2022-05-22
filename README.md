@@ -98,5 +98,5 @@ Yet to be done!!
 
 - [@Aditya Senger](https://github.com/aditya4454)
 - [@Naveen Kumar Yadav](https://github.com/montyydv)
-- [@Mrityunjay mishra](https://github.com/VikasMalviya2111)
+- [@Mrityunjay mishra](https://github.com/Mrityu2802)
 - [@Vikas Malviya](https://github.com/VikasMalviya2111)
