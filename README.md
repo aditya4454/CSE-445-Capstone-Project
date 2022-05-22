@@ -47,8 +47,14 @@ Yet to be done!!
 ![Screenshot (142)](https://user-images.githubusercontent.com/62827632/169697714-9de9fd3d-85d0-4d6a-af3c-1600d552893f.png)
 #### Mark Your Attendance In :-
 > As the name suggest😀 this module verify and tracks the time at which Student has marked the attendance in. The way this module work is based on computer vision and machine learning, we already have the model which is trained on the images stored in the DB. Using computer vision we get the face of the Student and then using our model it verify whether the student match with the data in DB and is so what's his/her name.
+
+![Screenshot (152)](https://user-images.githubusercontent.com/62827632/169698202-4d66dd0f-1289-4348-a855-08ed4314a038.png)
+
+
 #### Mark Your Attendance Out :-
 > This module is just vice-versa of the above discussed module😛. The only difference is that instead of marking the time in, it marks it out.
+
+![Screenshot (153)](https://user-images.githubusercontent.com/62827632/169698210-03dae9db-23cb-4323-a51a-22bf98c9b1c4.png)
 
 ### Log In
 > There are two portal based on the login credentials enter. Those are :- 
@@ -80,6 +86,8 @@ Yet to be done!!
 
 #### View Attendance Reports :-
 > This module contains graphs and details of Attendance related to all the student, admin can see the details of a particular student, date wise and range wise details, etc.
+
+![Screenshot (154)](https://user-images.githubusercontent.com/62827632/169698219-15799e1d-5ac6-4041-bc45-c42490fff9eb.png)
 
 ### Student Dashboard 
 > This module has graphs and details of Attendance related to a Student  
