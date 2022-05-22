@@ -1,9 +1,6 @@
 version: 2.1
-
-
 orbs:
   python: circleci/python@1.5.0
-
 jobs:
   build-and-test: 
     docker:
@@ -13,7 +10,6 @@ jobs:
       - run:
           name: "Enforce Go Formatted Code"
           command: "! go fmt ./... 2>&1 | read"
-
 workflows:
   sample: 
     jobs:
